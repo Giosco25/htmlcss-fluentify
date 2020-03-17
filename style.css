@@ -1,0 +1,17 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header {
+    height: 500px;
+    background-color: blue;
+}
+.header-top{
+    height: 100px;
+    background-color: yellow;
+}
+.header-bottom {
+    background-color: black;
+    height: 100%;
+}
