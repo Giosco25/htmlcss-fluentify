@@ -118,3 +118,13 @@ h3{
     font-size: 24px;
     font-weight: 300;
 }
+section{
+    height: 350px;
+    background-color: purple;
+    padding:40px 50px;
+}
+.parte-centrale img{
+    height: 160px;
+    margin-top: 5px;
+    float: left;
+}
