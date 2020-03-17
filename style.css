@@ -3,6 +3,9 @@
     padding:0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Sen', sans-serif;
+}
 header {
     height: 500px;
     background-color: blue;
@@ -70,6 +73,9 @@ header {
     border-radius: 5px;
     border: 1px solid #4e8cb6;
     color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
 }
 .cta-container a.link {
     font-size: 14px;
@@ -77,4 +83,26 @@ header {
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.5);
     line-height: 100px;
+}
+#jumbo-wrapper {
+    height: 400px;
+    position: relative;
+}
+
+#jumbo-content {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#jumbo-content h1 {
+    color: white;
+    font-size: 44px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+.btn-primary {
+    background-color: green;
+    border-color: green;
 }
