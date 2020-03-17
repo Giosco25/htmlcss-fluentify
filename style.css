@@ -17,6 +17,7 @@ header {
 .header-bottom {
     background-image: url("htmlcss-fluentify/two-men.png");
     height: 100%;
+
 }
 .container{
     width: 1300px;
@@ -105,4 +106,15 @@ header {
 .btn-primary {
     background-color: green;
     border-color: green;
+}
+.titolo{
+    text-align: center;
+}
+p{
+    margin-top: 10px;
+}
+h3{
+    margin-top: 8px;
+    font-size: 24px;
+    font-weight: 300;
 }
