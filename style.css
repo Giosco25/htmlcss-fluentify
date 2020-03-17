@@ -15,9 +15,10 @@ header {
 
 }
 .header-bottom {
-    background-image: url("htmlcss-fluentify/two-men.png");
-    height: 100%;
-
+    background-image: url("two-men.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 .container{
     width: 1300px;
@@ -25,7 +26,7 @@ header {
 
 }
 .logo-container{
-    width: 15%
+    width: 15%;
     float:left;
     height: 100%;
 
@@ -120,11 +121,29 @@ h3{
 }
 section{
     height: 350px;
-    background-color: purple;
     padding:40px 50px;
 }
 .parte-centrale img{
     height: 160px;
     margin-top: 5px;
+
+}
+.box {
     float: left;
+    width:33.3%;
+    text-align: center;
+
+}
+.box h3 {
+    margin-top: 30px;
+    color: #7fb802;
+}
+hr{
+    width: 7%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    border-width: 2px;
+
 }
