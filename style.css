@@ -8,7 +8,7 @@ body{
 }
 header {
     height: 500px;
-    background-color: blue;
+    background-color: #0D325A;
 }
 .header-top{
     height: 100px;
@@ -145,5 +145,4 @@ hr{
     margin-top: 12px;
     margin-bottom: 10px;
     border-width: 2px;
-
 }
